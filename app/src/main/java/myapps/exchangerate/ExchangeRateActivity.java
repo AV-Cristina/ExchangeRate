@@ -45,11 +45,6 @@ public class ExchangeRateActivity extends AppCompatActivity {
 
     public void onClickRefreshData(View view){
         new DownloadXmlTask().execute(URL);
-        Toast toast = Toast.makeText(this,
-                "Данные обновлены",
-                Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER, 0, 0);
-        toast.show();
     }
 
     private class DownloadXmlTask extends AsyncTask<String, Void, List<Currency>> {
