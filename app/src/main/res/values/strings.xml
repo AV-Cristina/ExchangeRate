@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Курсы валют</string>
+
+    <string name="refresh">Обновить</string>
+
+    <string name="currency_char_code_string">Koд</string>
+    <string name="currency_name_string">Наименование</string>
+    <string name="currency_nominal_string">Номинал</string>
+    <string name="currency_value_string">Значение</string>
+</resources>
